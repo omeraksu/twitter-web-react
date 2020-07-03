@@ -1,1 +1,14 @@
-import React from 'react'import styles from './button.module.css'function Button({ children, ...props }) {  return (    <button type="button" className={styles.button} {...props}>      {children}    </button>  )}export default Button
+import React from 'react'
+import cn from 'classnames'
+
+import styles from './button.module.css'
+
+function Button({ children, className, ...props }) {
+  return (
+    <button type="button" className={cn(styles.button, className)} {...props}>
+      {children}
+    </button>
+  )
+}
+
+export default Button

@@ -1,1 +1,23 @@
-import React from 'react'import Button from '../components/button'function HomePage() {  return (    <div>      <h1>Welcome to Next.js!</h1>      <Button>Saber?</Button>    </div>  )}export default HomePage
+import React from 'react'
+
+import Navigation from '../components/navigation'
+
+function HomePage() {
+  return (
+    <div>
+      <h1>Bura nere</h1>
+      <Div />
+      <Navigation />
+    </div>
+  )
+}
+
+function Div() {
+  return (
+    <div>
+      <p>naber la toprağım</p>
+    </div>
+  )
+}
+
+export default HomePage
