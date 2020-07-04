@@ -5,17 +5,15 @@ import Navigation from '../components/navigation'
 function HomePage() {
   return (
     <div>
-      <h1>Bura nere</h1>
-      <Div />
       <Navigation />
-    </div>
-  )
-}
-
-function Div() {
-  return (
-    <div>
-      <p>naber la toprağım</p>
+      <style global jsx>
+        {`
+          * {
+            margin: 0;
+            padding: 0;
+          }
+        `}
+      </style>
     </div>
   )
 }
