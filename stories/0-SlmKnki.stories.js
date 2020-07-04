@@ -5,7 +5,7 @@ export default {
 }
 
 export const SlmCanim = () => (
-  <div className="selam">
+  <div>
     <h1>Selam kankiler</h1>
     <p>
       Twitter sitesinde biraz garipsediğim, "ya olsa nasıl olurdu" dediğim
