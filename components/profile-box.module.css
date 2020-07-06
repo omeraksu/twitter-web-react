@@ -1,0 +1,1 @@
+.photo {    padding: 10px;    &:hover {        color: var(--c-text-color);    }}.body {    padding-left: 10px;    margin-right: 20px;    display: flex;    align-items: flex-start;    flex-direction: column;}.slug {    color: var(--c-gray);}.icon {     margin-left: auto;}
