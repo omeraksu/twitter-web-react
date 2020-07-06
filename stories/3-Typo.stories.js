@@ -9,7 +9,7 @@ export default {
 }
 
 export const Typography = () => (
-  <Stack column={20} gap={20}>
+  <Stack column={20} gap={20} flex={true}>
     <TextTitle>Title Bold</TextTitle>
     <TextTitle normal={true}>Title Regular</TextTitle>
 
