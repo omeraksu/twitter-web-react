@@ -1,1 +1,1 @@
-.main {    background-color: #161616 ;}
+.main {    border-width: 0 1px;    border-style: solid;    border-color: var(--c-border-color);}
