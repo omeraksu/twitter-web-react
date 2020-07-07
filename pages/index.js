@@ -1,20 +1,22 @@
 import React from 'react'
 
-import Navigation from '../components/navigation'
+import Layout from '../components/layout'
+import Sidebar from '../components/col-sidebar'
+import Main from '../components/col-main'
+import Extra from '../components/col-extra'
+
+import CONST from '../constant'
+import useWindowSize from '../hooks/windowSize'
 
 function HomePage() {
+  const size = useWindowSize()
+
   return (
-    <div>
-      <Navigation />
-      <style global jsx>
-        {`
-          * {
-            margin: 0;
-            padding: 0;
-          }
-        `}
-      </style>
-    </div>
+    <Layout>
+      <Sidebar flat={size.width < CONST.DESKTOP_SIZE}>sidebar</Sidebar>
+      <Main>main</Main>
+      {size.width > CONST.TABLET_SIZE && <Extra>extra</Extra>}
+    </Layout>
   )
 }
 
