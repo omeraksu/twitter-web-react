@@ -20,7 +20,7 @@ export const MENU = [
     path: '/',
     icon: <Icon.Home />,
     selected: <Icon.HomeFill />,
-    title: 'Anasayfa',
+    title: 'Home',
     notify: 0
   },
   {
@@ -28,7 +28,7 @@ export const MENU = [
     path: '/explore',
     icon: <Icon.Explore />,
     selected: <Icon.ExplorerFill />,
-    title: 'Keşfet',
+    title: 'Explore',
     notify: 0
   },
   {
@@ -36,7 +36,7 @@ export const MENU = [
     path: '/notification',
     icon: <Icon.Notification />,
     selected: <Icon.NotificationFill />,
-    title: 'Bildirimler',
+    title: 'Notifications',
     notify: 17
   },
   {
@@ -44,7 +44,7 @@ export const MENU = [
     path: '/messages',
     icon: <Icon.Messages />,
     selected: <Icon.MessagesFill />,
-    title: 'Mesajlar',
+    title: 'Messages',
     notify: 0
   },
   {
@@ -52,7 +52,7 @@ export const MENU = [
     path: '/bookmarks',
     icon: <Icon.Bookmark />,
     selected: <Icon.BookmarkFill />,
-    title: 'Yer İşaretleri',
+    title: 'Bookmarks',
     notify: 0
   },
   {
@@ -60,7 +60,7 @@ export const MENU = [
     path: '/list',
     icon: <Icon.Lists />,
     selected: <Icon.ListsFill />,
-    title: 'Listeler',
+    title: 'List',
     notify: 0
   },
   {
@@ -68,7 +68,7 @@ export const MENU = [
     path: '/profile',
     icon: <Icon.Profile />,
     selected: <Icon.ProfileFill />,
-    title: 'Profil',
+    title: 'Profile',
     notify: 0
   },
   {
@@ -76,7 +76,7 @@ export const MENU = [
     path: '/more',
     icon: <Icon.More />,
     selected: <Icon.More />,
-    title: 'Dafa Fazla',
+    title: 'More',
     notify: 0
   }
 ]
