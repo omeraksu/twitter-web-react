@@ -14,7 +14,7 @@ function HomePage() {
   return (
     <Layout>
       <Sidebar flat={size.width < CONST.DESKTOP_SIZE}>sidebar</Sidebar>
-      <Main>main</Main>
+      <Main>{JSON.stringify(size)}</Main>
       {size.width > CONST.TABLET_SIZE && <Extra>extra</Extra>}
     </Layout>
   )

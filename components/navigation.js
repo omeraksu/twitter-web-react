@@ -36,56 +36,56 @@ const MENU = [
     key: 'home',
     icon: <Home />,
     selected: <HomeFill />,
-    title: 'Home',
+    title: 'Anasayfa',
     notify: 0
   },
   {
     key: 'explore',
     icon: <Explore />,
     selected: <ExplorerFill />,
-    title: 'Explore',
+    title: 'Keşfet',
     notify: 0
   },
   {
     key: 'notification',
     icon: <Notification />,
     selected: <NotificationFill />,
-    title: 'Notification',
+    title: 'Bildirimler',
     notify: 17
   },
   {
     key: 'messages',
     icon: <Messages />,
     selected: <MessagesFill />,
-    title: 'Messages',
+    title: 'Mesajlar',
     notify: 0
   },
   {
     key: 'bookmarks',
     icon: <Bookmark />,
     selected: <BookmarkFill />,
-    title: 'Bookmarks',
+    title: 'Yer İşaretleri',
     notify: 0
   },
   {
     key: 'List',
     icon: <Lists />,
     selected: <ListsFill />,
-    title: 'List',
+    title: 'Listeler',
     notify: 0
   },
   {
     key: 'profile',
     icon: <Profile />,
     selected: <ProfileFill />,
-    title: 'Profile',
+    title: 'Profil',
     notify: 0
   },
   {
     key: 'more',
     icon: <More />,
     selected: <More />,
-    title: 'More',
+    title: 'Dafa Fazla',
     notify: 0
   }
 ]
