@@ -1,9 +1,9 @@
 import React from 'react'
-import { useRouter } from 'next/router'
 import cn from 'classnames'
+import { useRouter } from 'next/router'
 
-import { MENU } from '../constant'
 import styles from './navigation.module.css'
+import { MENU } from '../constant'
 
 import NavButton from './nav-button'
 import TextTitle from './text-title'

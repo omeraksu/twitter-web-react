@@ -1,6 +1,7 @@
 import React, { useEffect, useLayoutEffect, useState } from 'react'
 
 import '../styles/app.css'
+
 import StoreContext from '../store'
 
 export default function MyApp({ Component, pageProps }) {

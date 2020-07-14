@@ -1,8 +1,8 @@
 import React from 'react'
 
-import TextTitle from '../components/text-title'
-import TextBody from '../components/text-body'
 import Stack from '../components/stack'
+import TextBody from '../components/text-body'
+import TextTitle from '../components/text-title'
 
 export default {
   title: 'Typo'

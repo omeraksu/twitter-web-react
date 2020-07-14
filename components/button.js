@@ -1,7 +1,6 @@
 import React from 'react'
-import cn from 'classnames'
-
 import Link from 'next/link'
+import cn from 'classnames'
 
 import styles from './button.module.css'
 
