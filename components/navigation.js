@@ -16,6 +16,10 @@ function Navigation({ flat = false, selectedKey = 'home' }) {
       {MENU.map((menu) => {
         const showTitle = !flat && menu.title.length > 0
         const selected = router.pathname === menu.path
+        {
+          console.log(router.pathname)
+          console.log(selected)
+        }
         return (
           <NavButton
             key={menu.key}
